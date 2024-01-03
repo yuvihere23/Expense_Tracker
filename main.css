@@ -11,9 +11,9 @@ body{
     width: 80%;
     margin: auto;
     border-radius: 79px;
-    background: #f3e853;
-    box-shadow:  50px 50px 92px #948e33, 
-                 -50px -50px 92px #ffff73;
+    background: #b3ecd4;
+    box-shadow:  50px 50px 92px #2f837d, 
+                 -50px -50px 92px #73ffec;
     margin-top: 2rem;
 }
 #header{
@@ -40,9 +40,9 @@ body{
     margin-top: 10px;
     text-align: center;
     width: 50%;
-    background-color:rgb(0, 128 , 0 , 0.7) ;
+    background-color:rgba(118, 202, 118, 0.7) ;
     padding-top:5px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     border-radius: 1rem;
@@ -52,12 +52,12 @@ body{
     margin: auto;
     margin-top: 10px;
     width: 50%;
-    background-color:rgb(128,0,128,0.7);
+    background-color:rgba(197, 100, 197, 0.7);
     text-align: center;
     padding-top:5px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    color: white;
+    color: rgb(0, 0, 0);
     border-radius: 1rem;
     text-transform: uppercase;
 }
@@ -66,17 +66,17 @@ input[type="text"]{
     background: transparent;
     outline: none;
     border: none;
-    border-bottom: 2px solid rgb(255, 81, 81);
+    border-bottom: 2px solid rgb(14, 172, 153);
     margin-bottom: 10px;
     font-size: 17px;
 }
 input[type="number"]{
-    background-color: rgb(128,0,0,0.5);
+    background-color: rgba(170, 69, 69, 0.5);
     border: none;
 }
 input[type="number"]:focus{
-    background-color: rgba(136, 53, 53, 0.4);
-    color: white;
+    background-color: rgba(215, 105, 105, 0.4);
+    color: rgb(0, 0, 0);
     box-shadow: none;
     outline: none;
 
@@ -108,7 +108,7 @@ input[type="number"]:focus{
 }
 .button{
     border: none;
-    background: #0bec4394;
+    background: #4bbd8694;
     color: #000000 !important;
     font-weight:bolder;
     padding: 15px 15px;
@@ -151,9 +151,9 @@ input[type="number"]:focus{
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 79px;
-    background: #8b841d;
-    box-shadow:  50px 50px 92px #948e33, 
-                 -50px -50px 92px #fcfc0b;
+    background: #1d8b79;
+    box-shadow:  50px 50px 92px #339494, 
+                 -50px -50px 92px #0bfce4;
     font-size: 25px;
     padding: 5px;
 }
